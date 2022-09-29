@@ -1,14 +1,43 @@
 {
   "pages":[
     "pages/index/index",
-    "pages/logs/logs"
+    "pages/logs/logs",
+    "pages/user/index",
+    "pages/tutorials/tutorials"
   ],
   "window":{
     "backgroundTextStyle":"light",
     "navigationBarBackgroundColor": "#fff",
-    "navigationBarTitleText": "jasmine&pong",
+    "navigationBarTitleText": "爱国敬业学生会",
     "navigationBarTextStyle":"black"
   },
   "style": "v2",
-  "sitemapLocation": "sitemap.json"
+  "sitemapLocation": "sitemap.json",
+  "tabBar": {
+    "color": "#bfbfbf",
+    "selectedColor": "#E3846F",
+    "backgroundColor": "#fff",
+    "borderStyle": "black",
+    "position": "bottom",
+    "list": [
+      {
+        "text": "首页",
+        "pagePath": "pages/index/index",
+        "iconPath": "static/jx3/wanhua.png",
+        "selectedIconPath": "static/jx3/shaolin.png"
+      },
+      {
+        "text": "教程",
+        "pagePath": "pages/tutorials/tutorials",
+        "iconPath": "static/jx3/wudu.png",
+        "selectedIconPath": "static/jx3/shaolin.png"
+      },
+      {
+        "text": "个人",
+        "pagePath": "pages/user/index",
+        "iconPath": "static/jx3/qixiu.png",
+        "selectedIconPath": "static/jx3/shaolin.png"
+      }
+    ]
+  }
 }
